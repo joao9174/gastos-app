@@ -109,7 +109,7 @@ export default function RegisterScreen() {
                         ) : (
                             <PrimaryButton 
                                 text={"Registrar-se"} 
-                                onPress={register}
+                                action={register}
                             />
                         )}
 
